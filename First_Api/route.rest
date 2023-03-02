@@ -1,0 +1,17 @@
+GET http://127.0.0.1:3000/subscribers
+
+###
+
+GET http://127.0.0.1:3000/subscribers/15
+
+###
+GET http://127.0.0.1:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"person",
+    "subscribedToChannel":"gaur__mudit"
+}
+
+###
+DELETE http://127.0.0.1:3000/subscribers/15
